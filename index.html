@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio Website</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Box Icons -->
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+ 
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo">My Portfolio</a>
+ 
+        <div class="bx bx-menu" id="menu-icon"></div>
+ 
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <!-- Home -->
+ 
+    <section class="home" id="home">
+        <div class="social">
+            <a href="https://github.com/kavyat2806"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/kavya-t-545303247?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i class='bx bxl-linkedin' ></i></a>
+        </div>
+        <div class="home-img">
+            <img src="kavya2-removebg-preview.png" alt="" width="500" height="400">
+        </div>
+        <div class="home-text">
+            <span>Hello, I'm</span>
+            <h1>Kavya T</h1>
+            <h2>Frontend Developer</h2>
+            <p>If you're looking for a frontend developer <br> who can transform your vision into a remarkable online presence,<br> I'd love to connect and discuss how I can bring your project to life.</p>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+ 
+    </section>
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>ABOUT ME </h2>
+            <span>Introduction</span>
+        </div>
+        <!-- About Content -->
+        <div class="about-container">
+            <div class="about-img">
+                <img src="kavya7.png" alt="" width="500" height="400">
+            </div>
+            <div class="about-text">
+                <p>I'm kavya.I hail from kangayam.Currently, I am in my final year, pursuing Electronics and Communication Engineering at Kongu Engineering College, where I have maintained a commendable CGPA of 9.13.I have developed proficiency in programming languages such as C ,HTML and SQL.Beyond academics and projects, I am an active NSS volunteer, contributing my time and efforts to community service, and I am also a member of the IETE student forum, where I actively participate in professional development activities.In my leisure time, I find joy in immersing myself in music, and indulging in dance, which is more of a personal passion than a professional pursuit.
+            </p>
+                <div class="information">
+                  
+                    <!-- Box 3 -->
+                    <div class="info-box">
+                        <i class='bx bxs-envelope' ></i>
+                        <span>kavyat2806@gmail.com</span>
+                    </div>
+                </div>
+                <a href="https://drive.google.com/file/d/1XIjJu8WGbXZtUZmdhJEis-pWsOD4n75L/view?usp=drivesdk" class="btn" target="_blank" >Download Cv</a>
+            </div>
+        </div>
+    </section>
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <div class="heading">
+            <h2>Skills</h2>
+            <span>My Skills</span>
+        </div>
+        <!-- Skills Content -->
+        <div class="skills-container">
+            <div class="bars">
+                <!-- Box 1 -->
+                <div class="bars-box">
+                    <h3>HTML</h3>
+                    <span>94%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar html-bar"></div>
+                </div>
+                <!-- Box 2 -->
+                <div class="bars-box">
+                    <h3>CSS</h3>
+                    <span>84%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar css-bar"></div>
+                </div>
+                <!-- Box 3 -->
+                <div class="bars-box">
+                    <h3>SQL</h3>
+                    <span>84%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar js-bar"></div>
+                </div>
+                <!-- Box 4 -->
+                <div class="bars-box">
+                    <h3>C</h3>
+                    <span>80%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar react-bar"></div>
+                </div>
+            </div>
+            <div class="skills-img">
+                <img src="kavya4.png" alt="">
+            </div>
+        </div>
+ 
+    </section>
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+        <div class="heading">
+            <h2>Portfolio</h2>
+            <span>My Recent Work</span>
+        </div>
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('Academic')"> Academic</button>
+  <button class="btn" onclick="filterSelection('Mini Projects')"> Mini Projects</button>
+  <button class="btn" onclick="filterSelection('Webdev')"> Webdev</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column Academic">
+    <div class="content">
+      <img src="Port1.jpg" alt="Academic" style="width:100%">
+      <p>Development of a water Sprinkler Based Cooling System</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column Academic">
+      <div class="content">
+        <img src="Port 6.png" alt="Academic" style="width:100%">
+        <p>Analysis of Tomato Leaf Diseases Using Deep Learning</p>
+      </div>
+    </div>
+  <div class="column Mini Projects">
+    <div class="content">
+      <img src="Port 3.jpg" alt="Mini Projects" style="width:100%">
+      <p>Rain Alarm System using IC 555 timer</p>
+    </div>
+  </div>
+  <div class="column Mini Projects">
+    <div class="content">
+      <img src="Port 4.jpg" alt="Mini Projects" style="width:100%">
+      <p>Battery Level Indicator using LM324 Quad OPAMP</p>
+    </div>
+  </div>
+  <div class="column Mini Projects">
+    <div class="content">
+      <img src="Port 5.jpg" alt="Mini Projects" style="width:100%">
+      <p>Efficient Adder usimg ModelSim</p>
+    </div>
+  </div>
+  <div class="column Webdev">
+    <div class="content">
+      <img src="Port 9.jpg" alt="Webdev" style="width:100%">
+      <p>Product Card Using HTML CSS</p>
+    </div>
+  </div>
+  <div class="column  Webdev">
+    <div class="content">
+      <img src="Port 8.png" alt="Webdev" style="width:100%">
+      <p>Temperature Converter</p>
+    </div>
+  </div>
+  <div class="column Webdev">
+    <div class="content"></div>
+      <img src="Port 7.jpg" alt="Webdev" style="width:100%">
+      <p>Quiz App</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+    </section>
+    <section id="contact">
+        <div class="contact container">
+          <div>
+            <h1 class="section-title"><c>Contact Info</h1>
+          </div>
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+              <div class="contact-info">
+                <h1>Phone</h1>
+                <h2>+91 9677980921</h2>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+              <div class="contact-info">
+                <h1>Email</h1>
+                <h2>kavyat2806@gmail.com</h2>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+              <div class="contact-info">
+                <h1>Address</h1>
+                <h2>Kangayam,Erode,Tamilnadu</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Contact Section -->
+    
+    <!-- Footer -->
+    <div class="footer">
+        <h2>Crazy Coding</h2>
+        <div class="footer-social">
+            <a href="https://www.linkedin.com/in/kavya-t-545303247?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://github.com/kavyat2806"><i class='bx bxl-github' ></i></a>
+             
+        </div>
+ 
+    </div>
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>Create By <a href="">Kavya T</a> | All Rights Reserved.</p>
+    </div>
+ 
+ 
+ 
+    <!-- Link To JS -->
+    <script src="script.js"></script>
+</body>
+</html>
